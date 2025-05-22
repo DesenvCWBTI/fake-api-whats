@@ -1,0 +1,28 @@
+{
+    "return": true, // return true fica sempre no mesmo card conversando com o externo caso retornar false avança para proxima etapa do fluxo
+    "mensagens":[
+        {
+            "type":"texto",
+            "conteudo":"SUA MENSAGEM"
+        },
+        {
+            "type":"audio",
+            "url":"" // URL Anexo
+        },
+        {
+            "type":"image",
+            "url":"", // URL Anexo
+            "conteudo":"SUA MENSAGEM"
+        },
+        {
+            "type":"video",
+            "url":"", // URL Anexo
+            "filename":"", //Nome do arquivo com extenção exemplo: teste.pdf
+            "conteudo":"SUA MENSAGEM"
+        },
+        {
+            "type":"pausa",
+            "tempo":"5" // Temmpo em segundos maximo 15 segundos
+        }
+    ]
+}
