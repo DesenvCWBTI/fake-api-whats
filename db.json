@@ -1,28 +1,28 @@
 {
-    "return": true,
-    "mensagens": [
-        {
-            "type": "texto",
-            "conteudo": "SUA MENSAGEM"
-        },
-        {
-            "type": "audio",
-            "url": ""
-        },
-        {
-            "type": "image",
-            "url": "",
-            "conteudo": "SUA MENSAGEM"
-        },
-        {
-            "type": "video",
-            "url": "",
-            "filename": "",
-            "conteudo": "SUA MENSAGEM"
-        },
-        {
-            "type": "pausa",
-            "tempo": "5"
-        }
-    ]
+  "return": true,
+  "mensagens": [
+    {
+      "type": "texto",
+      "conteudo": "SUA MENSAGEM"
+    },
+    {
+      "type": "audio",
+      "url": "https://exemplo.com/audio.mp3"
+    },
+    {
+      "type": "image",
+      "url": "https://exemplo.com/imagem.jpg",
+      "conteudo": "SUA MENSAGEM"
+    },
+    {
+      "type": "video",
+      "url": "https://exemplo.com/video.mp4",
+      "filename": "video.mp4",
+      "conteudo": "SUA MENSAGEM"
+    },
+    {
+      "type": "pausa",
+      "tempo": 5
+    }
+  ]
 }
