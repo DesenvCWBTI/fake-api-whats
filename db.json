@@ -1,5 +1,5 @@
 {
-    "return": true, // return true fica sempre no mesmo card conversando com o externo caso retornar false avança para proxima etapa do fluxo
+    "return": true,
     "mensagens":[
         {
             "type":"texto",
@@ -7,22 +7,22 @@
         },
         {
             "type":"audio",
-            "url":"" // URL Anexo
+            "url":""
         },
         {
             "type":"image",
-            "url":"", // URL Anexo
+            "url":"",
             "conteudo":"SUA MENSAGEM"
         },
         {
             "type":"video",
-            "url":"", // URL Anexo
-            "filename":"", //Nome do arquivo com extenção exemplo: teste.pdf
+            "url":"",
+            "filename":"",
             "conteudo":"SUA MENSAGEM"
         },
         {
             "type":"pausa",
-            "tempo":"5" // Temmpo em segundos maximo 15 segundos
+            "tempo":"5"
         }
     ]
 }
